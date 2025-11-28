@@ -13662,11 +13662,22 @@ a.theme-link:hover {
     top: 0
 }
 
-.resume-name {
-    font-size: 2.75rem;
-    font-weight: 900;
-    letter-spacing: 0.4rem;
-    color: #5D6BA7
+@media (min-width: 500px) {
+    .resume-name {
+        font-size: 2.75rem;
+        font-weight: 900;
+        letter-spacing: 0.4rem;
+        color: #5D6BA7
+    }
+}
+
+@media (max-width: 500px) {
+    .resume-name {
+        font-size: 1.8rem;
+        font-weight: 900;
+        letter-spacing: 0.4rem;
+        color: #5D6BA7
+    }
 }
 
 .resume-tagline {
